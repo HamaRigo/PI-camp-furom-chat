@@ -50,6 +50,7 @@ public final class ToDtoConverter {
                 user.getEmail(),
                 user.getPassword(),
                 user.getPhoneNumber(),
+                user.getImage(),
                 user.getRole(),
                 user.getComments(),
                 user.getReacts(),

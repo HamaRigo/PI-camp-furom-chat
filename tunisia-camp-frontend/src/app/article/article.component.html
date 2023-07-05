@@ -1,11 +1,8 @@
 <div class="article-page">
-
   <div class="banner">
     <div class="container">
       <h1>{{ article.title }}</h1>
-
       <app-article-meta [article]="article">
-
           <span
             [hidden]="!canModify">
           <a class="btn btn-sm btn-outline-secondary"
@@ -71,10 +68,9 @@
       </app-article-meta>
     </div>
 
+    
     <div class="row">
       <div class="col-xs-12 col-md-8 offset-md-2">
-
-<!--        <div *appShowAuthed="true">-->
         <div >
           <app-list-errors [errors]="commentFormErrors"></app-list-errors>
           <form class="card comment-form" (ngSubmit)="addComment()">
@@ -95,11 +91,6 @@
             </fieldset>
           </form>
         </div>
-
-        <div >
-<!--          <a [routerLink]="['/login']">Sign in</a> or <a [routerLink]="['/register']">sign up</a> to add comments on this article.-->
-        </div>
-
         <app-article-comment
           *ngFor="let comment of comments"
           [comment]="comment"

@@ -12,9 +12,9 @@ public class UserServiceImpl implements UserService {
 
     @Autowired
     private UserRepository userDao;
-    public User getdefaultuser(){
-    return userDao.findById(1L).orElse(null);
-}
+    public User getdefaultuser() {
+        return userDao.findById(1L).orElse(null);
+    }
     @Override
     public User connect(User user) throws UsernameAlreadyUsedException {
         User dbUser = userDao.findByUsername(user.getUsername());

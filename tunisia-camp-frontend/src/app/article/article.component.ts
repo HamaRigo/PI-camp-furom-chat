@@ -51,12 +51,15 @@ export class ArticleComponent implements OnInit {
       (data) => {
         this.article = data ;
         this.populateComments();
-        if
-        (this.article.user.id === 1) {
+        if(this.article.user.id === 1) {
           this.canModify = true;
         }
-
     }
+    );
+    this.userService.currentUser.subscribe(
+      (userData) => {
+        this.currentUser = userData;
+      }
     );
   }
 

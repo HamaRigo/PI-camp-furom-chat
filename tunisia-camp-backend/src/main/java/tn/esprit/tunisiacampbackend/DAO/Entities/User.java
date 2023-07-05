@@ -33,6 +33,7 @@ public class User implements Serializable{
     String email;
     String password;
     int phoneNumber;
+    String image;
     @Enumerated(EnumType.STRING)
     Role role;
 

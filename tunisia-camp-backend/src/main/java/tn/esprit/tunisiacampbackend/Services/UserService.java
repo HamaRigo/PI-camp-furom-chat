@@ -24,4 +24,6 @@ public interface UserService {
      * @param user
      */
     User disconnect(User user);
+
+    User getdefaultuser();
 }

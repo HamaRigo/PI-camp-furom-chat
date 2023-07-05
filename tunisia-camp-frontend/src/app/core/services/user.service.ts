@@ -25,8 +25,9 @@ export class UserService {
   // Verify JWT in localstorage with server & load user's info.
   // This runs once on application startup.
   populate() {
+    this.setDefaultUser();
     // If JWT detected, attempt to get & store user's info
-    if (this.jwtService.getToken()) {
+    /*if (this.jwtService.getToken()) {
       this.apiService.get('/user')
       .subscribe(
         data => this.setAuth(data.user),
@@ -35,7 +36,7 @@ export class UserService {
     } else {
       // Remove any potential remnants of previous auth states
       this.purgeAuth();
-    }
+    }*/
   }
 
   setAuth(user: User) {
@@ -82,4 +83,12 @@ export class UserService {
     }));
   }
 
+  setDefaultUser() {   
+    this.apiService.get('/defaultUser')
+    .subscribe(
+      (userData) => {
+        this.currentUserSubject.next(userData);
+        this.isAuthenticatedSubject.next(true);
+      });
+  }
 }

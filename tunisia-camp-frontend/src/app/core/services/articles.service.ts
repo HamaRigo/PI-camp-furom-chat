@@ -37,9 +37,8 @@ export class ArticlesService {
   save(article): Observable<Article> {
     // If we're updating an existing article
     if (article.id) {
-      return this.apiService.put('/articles/' + article.id, article)
+      return this.apiService.put('/articles', article)
         .pipe(map(data => data.article));
-
     // Otherwise, create a new article
     } else {
       return this.apiService.post('/articles/', article);

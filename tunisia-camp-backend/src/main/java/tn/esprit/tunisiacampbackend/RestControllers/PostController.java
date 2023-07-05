@@ -41,10 +41,8 @@ public class PostController {
         System.out.println(post);
         return new ResponseEntity<>(this.postService.create(post), HttpStatus.OK);
     }
-    @CrossOrigin(origins = "*", allowedHeaders = "*")
 
     @GetMapping
-
     public ResponseEntity<HashMap> getAllPosts() {
 //        return new ResponseEntity<>(this.postService.getAll(), HttpStatus.OK);
         HashMap<String,Object> map = new HashMap<>();
@@ -58,11 +56,9 @@ public class PostController {
     public ResponseEntity<PostDto> getPostById(@PathVariable final Long id) {
         return new ResponseEntity<>(this.postService.getById(id), HttpStatus.OK);
     }
-//    @CrossOrigin(origins = "*", allowedHeaders = "*")
 
-//    @RequestMapping(value = "/articles/{slug}", method = RequestMethod.PUT)
     @PutMapping
-    public ResponseEntity<PostDto> updatePost(@PathVariable final Long id, @RequestBody final Post post) {
+    public ResponseEntity<PostDto> updatePost(@RequestBody final Post post) {
         return new ResponseEntity<>(this.postService.update(post), HttpStatus.OK);
     }
 

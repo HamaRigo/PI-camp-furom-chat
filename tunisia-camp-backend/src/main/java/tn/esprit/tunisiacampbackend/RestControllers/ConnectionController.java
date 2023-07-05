@@ -12,9 +12,10 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.messaging.simp.SimpMessagingTemplate;
 import org.springframework.web.bind.annotation.*;
 
+
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 @RestController
 public class ConnectionController {
-
     @Autowired
     private UserService userService;
 
@@ -53,5 +54,10 @@ public class ConnectionController {
     @ResponseStatus(HttpStatus.NO_CONTENT)
     public void clearAll() {
         userDao.deleteAll();
+    }
+
+    @GetMapping(value = "/defaultUser")
+    public ResponseEntity<User> defaultUser() {
+        return new ResponseEntity<>(this.userService.getdefaultuser(), HttpStatus.OK);
     }
 }

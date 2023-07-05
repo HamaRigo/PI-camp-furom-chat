@@ -18,6 +18,7 @@ public class UserDTO {
     String email;
     String password;
     int phoneNumber;
+    String image;
     Role role;
     private List<Comment> comments;
     private List<React> reacts;
