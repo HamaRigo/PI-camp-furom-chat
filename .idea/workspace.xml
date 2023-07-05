@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a83562db-9a64-4a87-bb87-98a65e9a34aa" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/tunisia-camp-backend-med-Space/src/main/java/tn/esprit/tunisiacampbackend/DAO/DTO/PostDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/tunisia-camp-backend-med-Space/src/main/java/tn/esprit/tunisiacampbackend/DAO/DTO/PostDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tunisia-camp-backend-med-Space/src/main/java/tn/esprit/tunisiacampbackend/DAO/Entities/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/tunisia-camp-backend-med-Space/src/main/java/tn/esprit/tunisiacampbackend/DAO/Entities/Post.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tunisia-camp-backend-med-Space/src/main/java/tn/esprit/tunisiacampbackend/RestControllers/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tunisia-camp-backend-med-Space/src/main/java/tn/esprit/tunisiacampbackend/RestControllers/CommentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tunisia-camp-backend-med-Space/src/main/java/tn/esprit/tunisiacampbackend/RestControllers/ConnectionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tunisia-camp-backend-med-Space/src/main/java/tn/esprit/tunisiacampbackend/RestControllers/ConnectionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tunisia-camp-backend-med-Space/src/main/java/tn/esprit/tunisiacampbackend/RestControllers/PostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tunisia-camp-backend-med-Space/src/main/java/tn/esprit/tunisiacampbackend/RestControllers/PostController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tunisia-camp-backend-med-Space/src/main/java/tn/esprit/tunisiacampbackend/RestControllers/ReactController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tunisia-camp-backend-med-Space/src/main/java/tn/esprit/tunisiacampbackend/RestControllers/ReactController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tunisia-camp-backend-med-Space/src/main/java/tn/esprit/tunisiacampbackend/Services/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/tunisia-camp-backend-med-Space/src/main/java/tn/esprit/tunisiacampbackend/Services/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tunisia-camp-backend-med-Space/src/main/java/tn/esprit/tunisiacampbackend/security/CORSFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/tunisia-camp-backend-med-Space/src/main/java/tn/esprit/tunisiacampbackend/security/CORSFilter.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/tunisia-camp-backend-med-Space" />
+  </component>
+  <component name="ProjectId" id="2S9Tf9G5sC0GasC2OJYU8Va8mMD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/hammarigo/Desktop/med-Space1&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a83562db-9a64-4a87-bb87-98a65e9a34aa" name="Changes" comment="" />
+      <created>1688557897350</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1688557897350</updated>
+      <workItem from="1688557898579" duration="141000" />
+      <workItem from="1688558436617" duration="1139000" />
+      <workItem from="1688559594103" duration="55000" />
+      <workItem from="1688559651746" duration="18000" />
+      <workItem from="1688559983231" duration="23000" />
+      <workItem from="1688560106012" duration="71000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

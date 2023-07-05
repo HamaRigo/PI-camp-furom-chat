@@ -1,0 +1,38 @@
+<nav class="navbar navbar-light">
+  <div class="container">
+    <a class="navbar-brand" routerLink="/">Camp forum</a>
+
+    <!-- Show this for logged out users -->
+    <ul *appShowAuthed="false"
+      class="nav navbar-nav pull-xs-right">
+
+      <li class="nav-item">
+        <a class="nav-link"
+          routerLink="/">
+          Home
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link"
+           routerLink="/editor"
+           routerLinkActive="active">
+          <i class="ion-compose"></i>&nbsp;New Article
+        </a>
+      </li>
+
+
+
+      <li class="nav-item">
+        <a class="nav-link"
+           [routerLink]="['/profile', currentUser.username]"
+           routerLinkActive="active">
+          <img src= 'https://sm.ign.com/ign_fr/cover/a/avatar-gen/avatar-generations_bssq.jpg' width="30" height="30" />
+<!--          {{ currentUser.username }}-->
+          med
+        </a>
+      </li>
+
+    </ul>
+  </div>
+</nav>
