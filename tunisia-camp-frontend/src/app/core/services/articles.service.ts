@@ -23,8 +23,7 @@ export class ArticlesService {
     if(config.type != 'all') {
       params['type'] = config.type;
     }
-
-    console.log(params);
+    
     if(config.type == 'like') {
       return this.apiService.get('/articles/liked', new HttpParams({ fromObject: params }));
     }
