@@ -8,8 +8,6 @@ import {
   ArticlesService,
   AuthGuard,
   CommentsService,
-  JwtService,
-  ProfilesService,
   ReactsService,
   UserService
 } from './services';
@@ -24,8 +22,6 @@ import {
     ArticlesService,
     AuthGuard,
     CommentsService,
-    JwtService,
-    ProfilesService,
     ReactsService,
     UserService
   ],
